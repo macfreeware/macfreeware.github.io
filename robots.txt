@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://macfreeware.github.io/sitemap.xml
