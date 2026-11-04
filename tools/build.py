@@ -43,7 +43,7 @@ APPS = [
                 "Top six processes by CPU or memory",
                 "Free, used and total space for every mounted disk, as Finder counts it",
                 "Battery tab: charge, time remaining, power draw in watts, health and cycle count",
-                "Battery history chart for 24 hours, 7 days, 30 days or 90 days, recorded once a minute; macOS shows only 24 hours",
+                "Battery history chart for 1 hour, 24 hours, 7 days, 30 days or 90 days, recorded once a minute; macOS shows only 24 hours",
                 "About 0.1% CPU and 40 MB of memory with the panel closed; no network access",
             ],
             "tr": [
@@ -54,7 +54,7 @@ APPS = [
                 "CPU'ya ya da belleğe göre en çok kaynak kullanan altı işlem",
                 "Bağlı her diskin Finder'daki gibi hesaplanan boş, kullanılan ve toplam alanı",
                 "Pil sekmesi: şarj, kalan süre, watt olarak güç tüketimi, pil sağlığı ve döngü sayısı",
-                "24 saat, 7 gün, 30 gün ya da 90 günlük pil geçmişi grafiği, dakikada bir kayıt; macOS yalnızca 24 saat gösterir",
+                "1 saat, 24 saat, 7 gün, 30 gün ya da 90 günlük pil geçmişi grafiği, dakikada bir kayıt; macOS yalnızca 24 saat gösterir",
                 "Panel kapalıyken yaklaşık %0,1 CPU ve 40 MB bellek; ağ erişimi yok",
             ],
         },

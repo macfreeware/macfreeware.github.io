@@ -21,7 +21,7 @@ Click MacMonitor in the menu bar and open the **Disk** tab. It shows free, used 
 
 ### How do I check my Mac's battery health and charge history?
 
-Open MacMonitor's **Battery** tab. It shows the charge, time remaining, power draw, battery health (the same "Maximum Capacity" as System Settings) and cycle count, and a chart of the charge level and system power over the last 24 hours, 7 days, 30 days or everything recorded. macOS itself only shows the last 24 hours.
+Open MacMonitor's **Battery** tab. It shows the charge, time remaining, power draw, battery health (the same "Maximum Capacity" as System Settings) and cycle count, and a chart of the charge level and system power over the last hour, 24 hours, 7 days, 30 days or everything recorded. macOS itself only shows the last 24 hours.
 
 ### Does MacMonitor keep a battery history when the panel is closed?
 
@@ -66,7 +66,7 @@ Menü çubuğunda MacMonitor'a tıklayıp **Disk** sekmesini açın. Başlangı�
 
 ### Mac'imin pil sağlığını ve şarj geçmişini nasıl görürüm?
 
-MacMonitor'ın **Pil** sekmesini açın. Şarj yüzdesini, kalan süreyi, güç tüketimini, pil sağlığını (Sistem Ayarları'ndaki "Maksimum Kapasite" ile aynı) ve döngü sayısını; son 24 saat, 7 gün, 30 gün ya da kaydedilen tüm süre için şarj düzeyi ve sistem gücü grafiğini gösterir. macOS'un kendisi yalnızca son 24 saati gösterir.
+MacMonitor'ın **Pil** sekmesini açın. Şarj yüzdesini, kalan süreyi, güç tüketimini, pil sağlığını (Sistem Ayarları'ndaki "Maksimum Kapasite" ile aynı) ve döngü sayısını; son 1 saat, 24 saat, 7 gün, 30 gün ya da kaydedilen tüm süre için şarj düzeyi ve sistem gücü grafiğini gösterir. macOS'un kendisi yalnızca son 24 saati gösterir.
 
 ### Panel kapalıyken de pil geçmişi kaydediliyor mu?
 
