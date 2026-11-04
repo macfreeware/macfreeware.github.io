@@ -4,7 +4,7 @@ DATA = {
     "MacMonitor": {
         "en": {
             "lead": ("  A native <b>menu bar monitor</b> for macOS:", "  A free, open-source <b>menu bar monitor</b> for macOS:"),
-            "alt": "A lightweight, free alternative to <b>iStat Menus</b>, <b>Stats</b> and <b>MenuMeters</b> when you only need CPU, memory and disk at a glance.",
+            "alt": "A lightweight, free alternative to <b>iStat Menus</b>, <b>Stats</b> and <b>MenuMeters</b> when you only need CPU, memory, disk and battery at a glance.",
             "faq": """## FAQ
 
 ### Is MacMonitor free?
@@ -19,13 +19,21 @@ Install MacMonitor: CPU and RAM percentages appear in the menu bar right away an
 
 Click MacMonitor in the menu bar and open the **Disk** tab. It shows free, used and total space for the startup disk and every external drive, calculated the same way as Finder.
 
+### How do I check my Mac's battery health and charge history?
+
+Open MacMonitor's **Battery** tab. It shows the charge, time remaining, power draw, battery health (the same "Maximum Capacity" as System Settings) and cycle count, and a chart of the charge level and system power over the last 24 hours, 7 days, 30 days or everything recorded. macOS itself only shows the last 24 hours.
+
+### Does MacMonitor keep a battery history when the panel is closed?
+
+Yes. It records the battery once a minute while it runs and keeps 90 days, about 1 MB, in `~/Library/Application Support/MacMonitor` on your Mac. Nothing is sent anywhere. The Battery tab only appears on Macs with a battery.
+
 ### Will it slow down my Mac?
 
 No. With the panel closed MacMonitor uses about 0.1% of total CPU and 40 MB of memory. It doesn't run shell commands such as `top` or `ps`, so it adds nothing to the system log.
 
 ### How is it different from iStat Menus or Stats?
 
-MacMonitor does less on purpose: CPU, memory, disk space and the top processes. It has no sensor, network, battery or GPU graphs. If those essentials are all you want, it stays small and quiet.
+MacMonitor does less on purpose: CPU, memory, disk space, the battery and the top processes. It has no sensor, network or GPU graphs. If those essentials are all you want, it stays small and quiet.
 
 ### Which Macs does it run on?
 
@@ -41,7 +49,7 @@ MacMonitor is not notarized by Apple, which needs a paid developer account. Allo
         },
         "tr": {
             "lead": ("  macOS için yerel bir <b>menü çubuğu izleyicisi</b>:", "  macOS için ücretsiz ve açık kaynak bir <b>menü çubuğu izleyicisi</b>:"),
-            "alt": "Yalnızca CPU, bellek ve diske bir bakışta göz atmak istiyorsanız <b>iStat Menus</b>, <b>Stats</b> ve <b>MenuMeters</b>'a hafif ve ücretsiz bir alternatif.",
+            "alt": "Yalnızca CPU, bellek, disk ve pile bir bakışta göz atmak istiyorsanız <b>iStat Menus</b>, <b>Stats</b> ve <b>MenuMeters</b>'a hafif ve ücretsiz bir alternatif.",
             "faq": """## Sık sorulan sorular
 
 ### MacMonitor ücretsiz mi?
@@ -56,13 +64,21 @@ MacMonitor'ı kurun: CPU ve RAM yüzdeleri hemen menü çubuğunda belirir ve 0,
 
 Menü çubuğunda MacMonitor'a tıklayıp **Disk** sekmesini açın. Başlangıç diskinin ve bağlı her harici diskin boş, kullanılan ve toplam alanını Finder ile aynı hesapla gösterir.
 
+### Mac'imin pil sağlığını ve şarj geçmişini nasıl görürüm?
+
+MacMonitor'ın **Pil** sekmesini açın. Şarj yüzdesini, kalan süreyi, güç tüketimini, pil sağlığını (Sistem Ayarları'ndaki "Maksimum Kapasite" ile aynı) ve döngü sayısını; son 24 saat, 7 gün, 30 gün ya da kaydedilen tüm süre için şarj düzeyi ve sistem gücü grafiğini gösterir. macOS'un kendisi yalnızca son 24 saati gösterir.
+
+### Panel kapalıyken de pil geçmişi kaydediliyor mu?
+
+Evet. MacMonitor çalıştığı sürece pili dakikada bir kaydeder ve 90 günü (yaklaşık 1 MB) Mac'inizde, `~/Library/Application Support/MacMonitor` içinde tutar. Hiçbir yere gönderilmez. Pil sekmesi yalnızca pilli Mac'lerde görünür.
+
 ### Mac'imi yavaşlatır mı?
 
 Hayır. Panel kapalıyken toplam CPU'nun yaklaşık %0,1'ini ve 40 MB bellek kullanır. `top` ya da `ps` gibi kabuk komutları çalıştırmadığı için sistem loguna bir şey eklemez.
 
 ### iStat Menus ya da Stats'tan farkı ne?
 
-MacMonitor bilerek daha az şey yapar: CPU, bellek, disk alanı ve en çok kaynak kullanan işlemler. Sensör, ağ, pil ya da GPU grafikleri yoktur. Yalnızca bu temel bilgileri istiyorsanız küçük ve sessiz kalır.
+MacMonitor bilerek daha az şey yapar: CPU, bellek, disk alanı, pil ve en çok kaynak kullanan işlemler. Sensör, ağ ya da GPU grafikleri yoktur. Yalnızca bu temel bilgileri istiyorsanız küçük ve sessiz kalır.
 
 ### Hangi Mac'lerde çalışır?
 

@@ -29,10 +29,10 @@ APPS = [
         "download": "https://gitlab.com/freeware2/macmonitor/-/releases/permalink/latest/downloads/MacMonitor.pkg",
         "file": "pkg", "macos": "13", "macos_name": "Ventura",
         "category": "UtilitiesApplication",
-        "tagline": {"en": "Menu bar CPU, RAM and disk monitor", "tr": "Menü çubuğu CPU, RAM ve disk izleyici"},
+        "tagline": {"en": "Menu bar CPU, RAM, disk and battery monitor", "tr": "Menü çubuğu CPU, RAM, disk ve pil izleyici"},
         "summary": {
-            "en": "MacMonitor is a free, open-source macOS menu bar app that shows live CPU and RAM usage, with per-core load, memory breakdown, top processes and free disk space one click away.",
-            "tr": "MacMonitor, menü çubuğunda canlı CPU ve RAM kullanımını gösteren ücretsiz ve açık kaynak bir macOS uygulamasıdır; tek tıkla çekirdek yükleri, bellek dağılımı, en çok kaynak kullanan işlemler ve disk boşluğu açılır.",
+            "en": "MacMonitor is a free, open-source macOS menu bar app that shows live CPU and RAM usage, with per-core load, memory breakdown, top processes, free disk space and a long battery history one click away.",
+            "tr": "MacMonitor, menü çubuğunda canlı CPU ve RAM kullanımını gösteren ücretsiz ve açık kaynak bir macOS uygulamasıdır; tek tıkla çekirdek yükleri, bellek dağılımı, en çok kaynak kullanan işlemler, disk boşluğu ve uzun süreli pil geçmişi açılır.",
         },
         "features": {
             "en": [
@@ -42,6 +42,8 @@ APPS = [
                 "Memory split into App, Wired, Compressed and Free/Cached, as in Activity Monitor, plus swap",
                 "Top six processes by CPU or memory",
                 "Free, used and total space for every mounted disk, as Finder counts it",
+                "Battery tab: charge, time remaining, power draw in watts, health and cycle count",
+                "Battery history chart for 24 hours, 7 days, 30 days or 90 days, recorded once a minute; macOS shows only 24 hours",
                 "About 0.1% CPU and 40 MB of memory with the panel closed; no network access",
             ],
             "tr": [
@@ -51,16 +53,20 @@ APPS = [
                 "Etkinlik Monitörü'ndeki gibi Uygulamalar, Bağlı, Sıkıştırılmış ve Boş/Önbellek olarak bellek dağılımı ve takas alanı",
                 "CPU'ya ya da belleğe göre en çok kaynak kullanan altı işlem",
                 "Bağlı her diskin Finder'daki gibi hesaplanan boş, kullanılan ve toplam alanı",
+                "Pil sekmesi: şarj, kalan süre, watt olarak güç tüketimi, pil sağlığı ve döngü sayısı",
+                "24 saat, 7 gün, 30 gün ya da 90 günlük pil geçmişi grafiği, dakikada bir kayıt; macOS yalnızca 24 saat gösterir",
                 "Panel kapalıyken yaklaşık %0,1 CPU ve 40 MB bellek; ağ erişimi yok",
             ],
         },
         "shots": {
             "en": [("macmonitor-menubar.png", "MacMonitor in a light and a dark menu bar"),
                    ("macmonitor-overview.png", "Overview tab: CPU, cores and memory"),
-                   ("macmonitor-disk.png", "Disk tab: free, used and total space")],
+                   ("macmonitor-disk.png", "Disk tab: free, used and total space"),
+                   ("macmonitor-battery.png", "Battery tab: charge, history chart, health and cycles")],
             "tr": [("macmonitor-menubar.png", "Açık ve koyu menü çubuğunda MacMonitor"),
                    ("macmonitor-overview-tr.png", "Genel Bakış sekmesi: CPU, çekirdekler ve bellek"),
-                   ("macmonitor-disk-tr.png", "Disk sekmesi: boş, kullanılan ve toplam alan")],
+                   ("macmonitor-disk-tr.png", "Disk sekmesi: boş, kullanılan ve toplam alan"),
+                   ("macmonitor-battery-tr.png", "Pil sekmesi: şarj, geçmiş grafiği, sağlık ve döngü")],
         },
     },
     {
