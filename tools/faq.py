@@ -9,7 +9,7 @@ DATA = {
 
 ### Is MacMonitor free?
 
-Yes. MacMonitor is free and open source under the GPL-3.0 license. There are no ads, no accounts and no in-app purchases, and it never connects to the internet.
+Yes. MacMonitor is free and open source under the GPL-3.0 license. There are no ads, no accounts and no in-app purchases, and it collects nothing; its only connection is the daily update check on GitLab, which you can turn off.
 
 ### How do I see CPU and RAM usage in the Mac menu bar?
 
@@ -26,6 +26,10 @@ Open MacMonitor's **Battery** tab. It shows the charge, time remaining, power dr
 ### Does MacMonitor keep a battery history when the panel is closed?
 
 Yes. It records the battery once a minute while it runs and keeps 90 days, about 1 MB, in `~/Library/Application Support/MacMonitor` on your Mac. Nothing is sent anywhere. The Battery tab only appears on Macs with a battery.
+
+### Does MacMonitor update itself?
+
+Yes, from version 1.3.0. Once a day it looks for a new release on GitLab and shows what's new. If you choose **Update Now**, it downloads the update, checks its SHA-256 and signature, replaces itself and restarts, and your battery history is kept. No password is needed. You can skip a version, or turn the check off in Settings.
 
 ### Will it slow down my Mac?
 
@@ -54,7 +58,7 @@ MacMonitor is not notarized by Apple, which needs a paid developer account. Allo
 
 ### MacMonitor ücretsiz mi?
 
-Evet. MacMonitor, GPL-3.0 lisansıyla ücretsiz ve açık kaynaktır. Reklam, hesap ya da uygulama içi satın alma yoktur ve internete hiç bağlanmaz.
+Evet. MacMonitor, GPL-3.0 lisansıyla ücretsiz ve açık kaynaktır. Reklam, hesap ya da uygulama içi satın alma yoktur, hiçbir veri toplamaz; tek bağlantısı GitLab'daki günlük güncelleme denetimidir ve kapatılabilir.
 
 ### Mac'te menü çubuğunda CPU ve RAM kullanımını nasıl görürüm?
 
@@ -71,6 +75,10 @@ MacMonitor'ın **Pil** sekmesini açın. Şarj yüzdesini, kalan süreyi, güç 
 ### Panel kapalıyken de pil geçmişi kaydediliyor mu?
 
 Evet. MacMonitor çalıştığı sürece pili dakikada bir kaydeder ve 90 günü (yaklaşık 1 MB) Mac'inizde, `~/Library/Application Support/MacMonitor` içinde tutar. Hiçbir yere gönderilmez. Pil sekmesi yalnızca pilli Mac'lerde görünür.
+
+### MacMonitor kendini günceller mi?
+
+Evet, 1.3.0 sürümünden itibaren. Günde bir kez GitLab'da yeni sürüme bakar ve yenilikleri gösterir. **Şimdi Güncelle**'yi seçerseniz güncellemeyi indirir, SHA-256 değerini ve imzasını denetler, kendini değiştirip yeniden başlar; pil geçmişiniz korunur. Parola gerekmez. Bir sürümü atlayabilir ya da denetimi Ayarlar'dan kapatabilirsiniz.
 
 ### Mac'imi yavaşlatır mı?
 
