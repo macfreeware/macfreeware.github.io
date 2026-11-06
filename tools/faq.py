@@ -27,6 +27,14 @@ Open MacMonitor's **Battery** tab. It shows the charge, time remaining, power dr
 
 Yes. It records the battery once a minute while it runs and keeps 90 days, about 1 MB, in `~/Library/Application Support/MacMonitor` on your Mac. Nothing is sent anywhere. The Battery tab only appears on Macs with a battery.
 
+### How do I see network speed in the Mac menu bar?
+
+MacMonitor shows download and upload speed in two small lines next to CPU and RAM, in MB/s or Mbit/s. The **Network** tab adds usage for today, yesterday, this week, this month and last month, with charts by minute, hour, day or month, kept for 400 days.
+
+### How do I see when my Mac was charging, and how long the screen was on?
+
+Open **Details** in MacMonitor's **Battery** tab. The chart colors charging, plugged-in and on-battery time, with a strip for when the screen was on, and lists every charging session with its start, length and charge gained.
+
 ### Does MacMonitor update itself?
 
 Yes, from version 1.3.0. Once a day it looks for a new release on GitLab and shows what's new. If you choose **Update Now**, it downloads the update, checks its SHA-256 and signature, replaces itself and restarts, and your battery history is kept. No password is needed. You can skip a version, or turn the check off in Settings.
@@ -37,7 +45,7 @@ No. With the panel closed MacMonitor uses about 0.1% of total CPU and 40 MB of m
 
 ### How is it different from iStat Menus or Stats?
 
-MacMonitor does less on purpose: CPU, memory, disk space, the battery and the top processes. It has no sensor, network or GPU graphs. If those essentials are all you want, it stays small and quiet.
+MacMonitor does less on purpose: CPU, memory, network speed, disk space, the battery and the top processes. It has no sensor or GPU graphs. If those essentials are all you want, it stays small and quiet.
 
 ### Which Macs does it run on?
 
@@ -76,6 +84,14 @@ MacMonitor'ın **Pil** sekmesini açın. Şarj yüzdesini, kalan süreyi, güç 
 
 Evet. MacMonitor çalıştığı sürece pili dakikada bir kaydeder ve 90 günü (yaklaşık 1 MB) Mac'inizde, `~/Library/Application Support/MacMonitor` içinde tutar. Hiçbir yere gönderilmez. Pil sekmesi yalnızca pilli Mac'lerde görünür.
 
+### Mac menü çubuğunda ağ hızını nasıl görürüm?
+
+MacMonitor indirme ve yükleme hızını CPU ve RAM'in yanında iki küçük satırda, MB/s ya da Mbit/s olarak gösterir. **Ağ** sekmesi bugün, dün, bu hafta, bu ay ve geçen ayın kullanımını, dakika, saat, gün ya da ay bazında grafiklerle ekler ve 400 gün saklar.
+
+### Mac'imin ne zaman şarj olduğunu ve ekranın ne kadar açık kaldığını nasıl görürüm?
+
+MacMonitor'ın **Pil** sekmesinde **Ayrıntılar**'ı açın. Grafik şarj, prizde ve pilde geçen süreyi renklendirir, ekranın açık olduğu zamanları bir şeritte gösterir ve her şarj oturumunu başlangıcı, süresi ve kazanılan şarjla listeler.
+
 ### MacMonitor kendini günceller mi?
 
 Evet, 1.3.0 sürümünden itibaren. Günde bir kez GitLab'da yeni sürüme bakar ve yenilikleri gösterir. **Şimdi Güncelle**'yi seçerseniz güncellemeyi indirir, SHA-256 değerini ve imzasını denetler, kendini değiştirip yeniden başlar; pil geçmişiniz korunur. Parola gerekmez. Bir sürümü atlayabilir ya da denetimi Ayarlar'dan kapatabilirsiniz.
@@ -86,7 +102,7 @@ Hayır. Panel kapalıyken toplam CPU'nun yaklaşık %0,1'ini ve 40 MB bellek kul
 
 ### iStat Menus ya da Stats'tan farkı ne?
 
-MacMonitor bilerek daha az şey yapar: CPU, bellek, disk alanı, pil ve en çok kaynak kullanan işlemler. Sensör, ağ ya da GPU grafikleri yoktur. Yalnızca bu temel bilgileri istiyorsanız küçük ve sessiz kalır.
+MacMonitor bilerek daha az şey yapar: CPU, bellek, ağ hızı, disk alanı, pil ve en çok kaynak kullanan işlemler. Sensör ya da GPU grafikleri yoktur. Yalnızca bu temel bilgileri istiyorsanız küçük ve sessiz kalır.
 
 ### Hangi Mac'lerde çalışır?
 
