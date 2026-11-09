@@ -278,6 +278,9 @@ APPS = [
     },
 ]
 
+# Home page: newest first. Add new apps at the end of APPS. The first four were added together and keep their order.
+HOME_ORDER = APPS[:3:-1] + APPS[:4]
+
 T = {
     "en": {
         "site_title": "Mac Freeware",
@@ -515,7 +518,7 @@ def build_index(lang):
     other = "en" if lang == "tr" else "tr"
     prefix = "" if lang == "en" else "../"
     cards = []
-    for app in APPS:
+    for app in HOME_ORDER:
         cards.append(f"""<article class="card">
 <a href="{app['id']}/"><img class="icon" src="{prefix}assets/img/{app['id']}-icon.png" width="80" height="80" alt="{esc(app['name'])} icon"></a>
 <h3><a href="{app['id']}/">{esc(app['name'])}</a></h3>
@@ -539,10 +542,10 @@ def build_index(lang):
         {"@context": "https://schema.org", "@type": "WebSite", "name": t["site_title"], "url": url(lang), "inLanguage": lang,
          "description": t["site_tag"]},
         {"@context": "https://schema.org", "@type": "ItemList", "name": t["apps"],
-         "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": url(lang, a), "name": a["name"]} for i, a in enumerate(APPS)]},
+         "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": url(lang, a), "name": a["name"]} for i, a in enumerate(HOME_ORDER)]},
     ]
     title = f"{t['site_title']} – {t['site_tag']}"
-    return page(lang, title, t["site_tag"] + ": " + ", ".join(a["name"] for a in APPS) + ".", url(lang), url(other), body, jsonld, 0 if lang == "en" else 1)
+    return page(lang, title, t["site_tag"] + ": " + ", ".join(a["name"] for a in HOME_ORDER) + ".", url(lang), url(other), body, jsonld, 0 if lang == "en" else 1)
 
 
 def llms_txt():
