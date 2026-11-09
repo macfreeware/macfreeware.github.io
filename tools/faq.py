@@ -413,4 +413,72 @@ MacExplorer, ücretli geliştirici hesabı gerektiren Apple onayından (notariza
 """,
         },
     },
+    "MacNote++": {
+        "en": {
+            "lead": ("  A native <b>text, code and hex editor</b> for macOS:", "  A free, open-source <b>text, code and hex editor</b> for macOS:"),
+            "alt": "A free alternative to <b>BBEdit</b>, <b>CotEditor</b> and <b>Sublime Text</b> for everyday text and code editing on the Mac.",
+            "faq": """## FAQ
+
+### Is MacNote++ free?
+
+Yes. MacNote++ is free and open source under the GPL-3.0-or-later license, with no ads, no accounts and no in-app purchases.
+
+### Does it send my files anywhere?
+
+No. The only network request is the update check, which reads the latest release information from gitlab.com at most once a day. You can turn it off in Settings.
+
+### Can it open very large files?
+
+Yes. Files of 80 MB or more can open as a preview, and hex view reads even a 1 GB file from disk as you scroll.
+
+### Can I edit several lines at once?
+
+Yes. Add cursors with ⌥ + click or ⌥⇧↑ / ↓, or select a rectangle with ⌥ + drag, then type.
+
+### Which Macs does it run on?
+
+macOS 14 Sonoma or later, on Apple Silicon and Intel Macs.
+
+### Why does macOS block it the first time?
+
+MacNote++ is not notarized by Apple, which needs a paid developer account. Allow it once in **System Settings ▸ Privacy & Security ▸ Open Anyway**; see [Download and install](#download-and-install).
+
+<sub>BBEdit, CotEditor and Sublime Text are named only for comparison; MacNote++ is not affiliated with them or with Apple.</sub>
+
+""",
+        },
+        "tr": {
+            "lead": ("  macOS için <b>metin, kod ve hex düzenleyici</b>:", "  macOS için ücretsiz ve açık kaynak <b>metin, kod ve hex düzenleyici</b>:"),
+            "alt": "Mac'te günlük metin ve kod düzenleme için <b>BBEdit</b>, <b>CotEditor</b> ve <b>Sublime Text</b>'e ücretsiz bir alternatif.",
+            "faq": """## Sık sorulan sorular
+
+### MacNote++ ücretsiz mi?
+
+Evet. MacNote++, GPL-3.0-or-later lisansıyla ücretsiz ve açık kaynaktır; reklam, hesap ya da uygulama içi satın alma yoktur.
+
+### Dosyalarımı bir yere gönderiyor mu?
+
+Hayır. Tek ağ isteği güncelleme denetimidir; günde en fazla bir kez gitlab.com'dan son sürüm bilgisini okur. Ayarlar'dan kapatabilirsiniz.
+
+### Çok büyük dosyaları açabilir mi?
+
+Evet. 80 MB ve üstü dosyalar önizlemeyle açılabilir; hex görünümü 1 GB'lık dosyayı bile siz kaydırdıkça diskten okur.
+
+### Birden fazla satırı aynı anda düzenleyebilir miyim?
+
+Evet. ⌥ + tık ya da ⌥⇧↑ / ↓ ile imleç ekleyin veya ⌥ + sürükleme ile dikdörtgen seçim yapıp yazın.
+
+### Hangi Mac'lerde çalışır?
+
+macOS 14 Sonoma veya üstü, Apple Silicon ve Intel Mac'ler.
+
+### macOS neden ilk seferde engelliyor?
+
+MacNote++ Apple tarafından onaylanmamıştır; bunun için ücretli geliştirici hesabı gerekir. **Sistem Ayarları ▸ Gizlilik ve Güvenlik ▸ Yine de Aç** ile bir kez izin verin; bkz. [İndirme ve kurulum](#indirme-ve-kurulum).
+
+<sub>BBEdit, CotEditor ve Sublime Text yalnızca karşılaştırma için anılmıştır; MacNote++ bunlarla ya da Apple ile bağlantılı değildir.</sub>
+
+""",
+        },
+    },
 }
