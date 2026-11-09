@@ -201,6 +201,7 @@ APPS = [
                 "SFTP, FTP, FTPES and FTPS in the pane; SMB, WebDAV, AFP and NFS mounted as disks",
                 "Browse ZIP, RAR, 7Z and TAR archives like folders; mount ISO and DMG images and create new ones",
                 "Windows keyboard behaviour by default, Mac behaviour optional; function key bar",
+                "Works with the free MacNote++ editor: F4 edits files in it and F3 can open them read-only",
                 "14 themes with light and dark colours; updates itself from GitLab",
             ],
             "tr": [
@@ -213,6 +214,7 @@ APPS = [
                 "Panelde SFTP, FTP, FTPES ve FTPS; disk olarak bağlanan SMB, WebDAV, AFP ve NFS",
                 "ZIP, RAR, 7Z ve TAR arşivlerinde klasör gibi gezinme; ISO ve DMG bağlama ve oluşturma",
                 "Varsayılan olarak Windows klavye davranışı, isteğe bağlı Mac davranışı; işlev tuşu çubuğu",
+                "Ücretsiz MacNote++ düzenleyiciyle çalışır: F4 dosyaları onunla düzenler, F3 salt okunur açabilir",
                 "Açık ve koyu renkli 14 tema; GitLab'dan kendini günceller",
             ],
         },
