@@ -1,6 +1,6 @@
 # macfreeware.github.io
 
-Source of [macfreeware.github.io](https://macfreeware.github.io), the site of the Mac Freeware apps (MacMonitor, MacCalendar, MacRAR, MacZilla).
+Source of [macfreeware.github.io](https://macfreeware.github.io), the site of the Mac Freeware apps (MacMonitor, MacCalendar, MacRAR, MacZilla, MacExplorer).
 
 The pages are generated: edit `tools/build.py` (apps, features, screenshots) or `tools/faq.py` (FAQ and alternatives, shared with the app READMEs), then run
 

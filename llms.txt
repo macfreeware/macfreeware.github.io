@@ -8,6 +8,7 @@
 - [MacCalendar](https://macfreeware.github.io/maccalendar/): MacCalendar is a free, open-source macOS menu bar calendar with a dual world clock and country flags, a month view, quick notes for any day and more than 400 cities. Free alternative to: A free alternative to Itsycal, Dato and Clocker: a month calendar and a second time zone right in the menu bar. Requires macOS 13+. Download: https://gitlab.com/freeware2/maccalendar/-/releases/permalink/latest/downloads/MacCalendar.pkg
 - [MacRAR](https://macfreeware.github.io/macrar/): MacRAR is a free, open-source, WinRAR-style archive manager for macOS: open, extract and create RAR, ZIP, 7Z and TAR archives, with a Finder right-click menu. Free alternative to: A free WinRAR alternative for the Mac, and an alternative to Keka, BetterZip and The Unarchiver. Requires macOS 15+. Download: https://gitlab.com/freeware2/macrar/-/releases/permalink/latest/downloads/MacRAR.pkg
 - [MacZilla](https://macfreeware.github.io/maczilla/): MacZilla is a free, open-source, native FTP, FTPS and SFTP client for macOS in the spirit of FileZilla: two panes, tabs, a transfer queue, folder sync and a Site Manager. Free alternative to: A free, native alternative to FileZilla, Cyberduck and Transmit on the Mac. Requires macOS 14+. Download: https://gitlab.com/freeware2/maczilla/-/releases/permalink/latest/downloads/MacZilla.zip
+- [MacExplorer](https://macfreeware.github.io/macexplorer/): MacExplorer is a free, open-source, Windows Explorer-style file manager for macOS: tabs, dual pane, real Cut and Paste, a preview pane, and SFTP and FTP right in the window. Free alternative to: A free alternative to Finder, Path Finder, ForkLift and Commander One for people who miss Windows Explorer on the Mac. Requires macOS 15+. Download: https://gitlab.com/freeware2/macexplorer/-/releases/permalink/latest/downloads/MacExplorer.zip
 
 ## Source code and documentation
 
@@ -15,6 +16,7 @@
 - [MacCalendar README](https://gitlab.com/freeware2/maccalendar/-/raw/main/README.md): full documentation, install steps and FAQ (GitLab; mirror: https://github.com/macfreeware/MacCalendar)
 - [MacRAR README](https://gitlab.com/freeware2/macrar/-/raw/main/README.md): full documentation, install steps and FAQ (GitLab; mirror: https://github.com/macfreeware/MacRAR)
 - [MacZilla README](https://gitlab.com/freeware2/maczilla/-/raw/main/README.md): full documentation, install steps and FAQ (GitLab; mirror: https://github.com/macfreeware/MacZilla)
+- [MacExplorer README](https://gitlab.com/freeware2/macexplorer/-/raw/main/README.md): full documentation, install steps and FAQ (GitLab; mirror: https://github.com/macfreeware/MacExplorer)
 
 ## Optional
 

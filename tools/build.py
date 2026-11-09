@@ -180,6 +180,51 @@ APPS = [
                    ("maczilla-sites.png", "Gruplu MacZilla Site Yöneticisi")],
         },
     },
+    {
+        "id": "macexplorer", "name": "MacExplorer", "gl": "macexplorer", "gh": "MacExplorer",
+        "download": "https://gitlab.com/freeware2/macexplorer/-/releases/permalink/latest/downloads/MacExplorer.zip",
+        "file": "zip", "macos": "15", "macos_name": "Sequoia",
+        "category": "UtilitiesApplication",
+        "tagline": {"en": "Windows Explorer-style file manager", "tr": "Windows Gezgini tarzı dosya yöneticisi"},
+        "summary": {
+            "en": "MacExplorer is a free, open-source, Windows Explorer-style file manager for macOS: tabs, dual pane, real Cut and Paste, a preview pane, and SFTP and FTP right in the window.",
+            "tr": "MacExplorer, macOS için ücretsiz ve açık kaynak, Windows Gezgini tarzı bir dosya yöneticisidir: sekmeler, çift panel, gerçek Kes ve Yapıştır, önizleme bölmesi ve pencerenin içinde SFTP ile FTP.",
+        },
+        "features": {
+            "en": [
+                "Tabs in every pane and dual pane (F9); tabs move between panes and windows",
+                "Address bar with steps like Explorer, and Windows column and menu names",
+                "Real Cut, Copy and Paste that also works with Finder's clipboard",
+                "Copy and move with progress, Replace / Skip / Keep both, and Undo / Redo for every file operation",
+                "Icon, List and Details views with thumbnails, a preview pane (Alt+P) and Quick Look",
+                "Search that also looks through subfolders in the background",
+                "SFTP, FTP, FTPES and FTPS in the pane; SMB, WebDAV, AFP and NFS mounted as disks",
+                "Browse ZIP, RAR, 7Z and TAR archives like folders; mount ISO and DMG images and create new ones",
+                "Windows keyboard behaviour by default, Mac behaviour optional; function key bar",
+                "14 themes with light and dark colours; updates itself from GitLab",
+            ],
+            "tr": [
+                "Her panelde sekmeler ve çift panel (F9); sekmeler paneller ve pencereler arasında taşınır",
+                "Gezgin'deki gibi adımlı adres çubuğu, Windows sütun ve menü adları",
+                "Finder panosuyla da çalışan gerçek Kes, Kopyala ve Yapıştır",
+                "İlerleme penceresi, Değiştir / Atla / İkisini de sakla ve tüm dosya işlemleri için Geri Al / Yinele",
+                "Küçük resimli Simge, Liste ve Ayrıntılar görünümleri, önizleme bölmesi (Alt+P) ve Hızlı Bakış",
+                "Alt klasörleri de arka planda tarayan arama",
+                "Panelde SFTP, FTP, FTPES ve FTPS; disk olarak bağlanan SMB, WebDAV, AFP ve NFS",
+                "ZIP, RAR, 7Z ve TAR arşivlerinde klasör gibi gezinme; ISO ve DMG bağlama ve oluşturma",
+                "Varsayılan olarak Windows klavye davranışı, isteğe bağlı Mac davranışı; işlev tuşu çubuğu",
+                "Açık ve koyu renkli 14 tema; GitLab'dan kendini günceller",
+            ],
+        },
+        "shots": {
+            "en": [("macexplorer-main.png", "MacExplorer main window with tabs and two panes"),
+                   ("macexplorer-preview.png", "Preview pane showing a selected photo and its details"),
+                   ("macexplorer-archive-dark.png", "Dark appearance with a ZIP archive open as a folder")],
+            "tr": [("macexplorer-main.png", "Sekmeli ve iki panelli MacExplorer ana penceresi"),
+                   ("macexplorer-preview.png", "Seçili fotoğrafı ve bilgilerini gösteren önizleme bölmesi"),
+                   ("macexplorer-archive-dark.png", "Klasör gibi açılmış ZIP arşiviyle koyu görünüm")],
+        },
+    },
 ]
 
 T = {

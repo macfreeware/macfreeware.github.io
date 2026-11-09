@@ -329,4 +329,88 @@ MacZilla, ücretli geliştirici hesabı gerektiren Apple onayından (notarizatio
 """,
         },
     },
+    "MacExplorer": {
+        "en": {
+            "lead": ("  A <b>Windows Explorer-style file manager</b> for macOS:", "  A free, open-source <b>Windows Explorer-style file manager</b> for macOS:"),
+            "alt": "A free alternative to <b>Finder</b>, <b>Path Finder</b>, <b>ForkLift</b> and <b>Commander One</b> for people who miss Windows Explorer on the Mac.",
+            "faq": """## FAQ
+
+### Is MacExplorer free?
+
+Yes. MacExplorer is free and open source under the GPL-3.0 license, with no ads, no accounts and no in-app purchases.
+
+### Is there a Windows Explorer for Mac?
+
+Microsoft does not make one. MacExplorer brings the same way of working to macOS: tabs, the address bar with steps, Windows menu names, Cut and Paste, and the Windows keyboard behaviour.
+
+### Can I cut and paste files on a Mac?
+
+Yes. In MacExplorer, Ctrl+X or ⌘X cuts files and Ctrl+V or ⌘V moves them. Cut items are dimmed until you paste.
+
+### Does it replace Finder?
+
+No, it runs next to Finder. macOS does not reliably allow another app to become the default file viewer, so folders opened from other apps still go to Finder.
+
+### Can it connect to SFTP and FTP servers?
+
+Yes. SFTP, FTP, FTPES and FTPS open in the pane, and SMB, WebDAV, AFP and NFS are mounted as disks. Connect with ⌘K.
+
+### Where are my passwords stored?
+
+Only in the macOS Keychain, and only if you choose to save them.
+
+### Which Macs does it run on?
+
+macOS 15 Sequoia or later, on Apple Silicon and Intel Macs.
+
+### Why does macOS block it the first time?
+
+MacExplorer is not notarized by Apple, which needs a paid developer account. Allow it once in **System Settings ▸ Privacy & Security ▸ Open Anyway**; see [Download and install](#download-and-install).
+
+<sub>Finder, Path Finder, ForkLift, Commander One and Windows Explorer are named only for comparison; MacExplorer is not affiliated with them, with Apple or with Microsoft.</sub>
+
+""",
+        },
+        "tr": {
+            "lead": ("  macOS için <b>Windows Gezgini tarzı dosya yöneticisi</b>:", "  macOS için ücretsiz ve açık kaynak <b>Windows Gezgini tarzı dosya yöneticisi</b>:"),
+            "alt": "Mac'te Windows Gezgini'ni arayanlar için <b>Finder</b>, <b>Path Finder</b>, <b>ForkLift</b> ve <b>Commander One</b>'a ücretsiz bir alternatif.",
+            "faq": """## Sık sorulan sorular
+
+### MacExplorer ücretsiz mi?
+
+Evet. MacExplorer, GPL-3.0 lisansıyla ücretsiz ve açık kaynaktır; reklam, hesap ya da uygulama içi satın alma yoktur.
+
+### Mac için Windows Gezgini var mı?
+
+Microsoft yapmıyor. MacExplorer aynı çalışma biçimini macOS'a getirir: sekmeler, adımlı adres çubuğu, Windows menü adları, Kes ve Yapıştır, Windows klavye davranışı.
+
+### Mac'te dosya kesip yapıştırabilir miyim?
+
+Evet. MacExplorer'da Ctrl+X ya da ⌘X dosyaları keser, Ctrl+V ya da ⌘V taşır. Kesilen öğeler yapıştırılana kadar soluk görünür.
+
+### Finder'ın yerini alıyor mu?
+
+Hayır, Finder'ın yanında çalışır. macOS başka bir uygulamanın varsayılan dosya görüntüleyici olmasına güvenilir biçimde izin vermiyor; bu yüzden başka uygulamalardan açılan klasörler yine Finder'a gider.
+
+### SFTP ve FTP sunucularına bağlanabilir mi?
+
+Evet. SFTP, FTP, FTPES ve FTPS panelde açılır; SMB, WebDAV, AFP ve NFS disk olarak bağlanır. ⌘K ile bağlanın.
+
+### Parolalarım nerede saklanıyor?
+
+Yalnızca macOS Anahtar Zinciri'nde ve yalnızca kaydetmeyi seçerseniz.
+
+### Hangi Mac'lerde çalışır?
+
+macOS 15 Sequoia veya üstü yüklü Apple Silicon ve Intel Mac'lerde.
+
+### macOS neden ilk seferde engelliyor?
+
+MacExplorer, ücretli geliştirici hesabı gerektiren Apple onayından (notarization) geçmemiştir. **Sistem Ayarları ▸ Gizlilik ve Güvenlik ▸ Yine de Aç** ile bir kez izin verin; ayrıntılar [İndirme ve kurulum](#indirme-ve-kurulum) bölümünde.
+
+<sub>Finder, Path Finder, ForkLift, Commander One ve Windows Gezgini yalnızca karşılaştırma için anılmıştır; MacExplorer'ın bunlarla, Apple ya da Microsoft ile bir bağı yoktur.</sub>
+
+""",
+        },
+    },
 }
